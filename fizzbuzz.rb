@@ -5,11 +5,11 @@ Fizz_15 = "FizzBuzz"
 
 def fizzbuzz(num)
   if num % 3 == 0 && !(num % 5 == 0)
-    Fizz_3
+    puts Fizz_3
   elsif num % 5 == 0 && !(num % 3 == 0)
-    Fizz_5
+    puts Fizz_5
   elsif num % 15 == 0
-    Fizz_15
+    puts Fizz_15
   else
     puts nil
   end
